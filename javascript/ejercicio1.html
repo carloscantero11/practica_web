@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 1</title>
+
+    <script type="text/javascript" src="6-ejercicio1.js"></script>
+    <style>
+      .box {
+        width: 200px;
+        height: 280px;
+        float: left;
+        margin: 20px;
+      }
+      .dashed {
+        border: 3px dashed black;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Ejercicio:</h1>
+
+    <!-- Datos -->
+    <ol>
+      <li><strong>Formulario campos: nombre, apellido y edad.</strong></li>
+      <li><strong>Botón de enviar el formlario: "Evento Submit".</strong></li>
+      <li><strong>Mostrar datos por pantalla.</strong></li>
+      <li>
+        <strong
+          >Tener un botón que al darle click nos muestra los datos actuales del
+          formulario.</strong
+        >
+      </li>
+      <li>
+        <strong>Validación de formulario.</strong>
+      </li>
+    </ol>
+
+    <!-- Inicio -->
+
+    <h2>Formulario</h2>
+
+    <div class="box">
+      <form action="#" method="post" id="formulario" onsubmit="return false;">
+        <label for="nombre">Nombre:</label>
+        <br />
+        <input
+          type="text"
+          name="nombre"
+          id="nombre"
+          placeholder="Carlos"
+          autocomplete="off"
+        />
+        <br />
+        <br />
+        <label for="apellido">Apellido:</label>
+        <br />
+        <input
+          type="text"
+          name="apellido"
+          id="apellido"
+          placeholder="Cantero"
+          autocomplete="off"
+        />
+        <br />
+        <br />
+        <label for="edad">Edad:</label>
+        <br />
+        <input
+          type="number"
+          name="edad"
+          id="edad"
+          placeholder="26"
+          autocomplete="off"
+        />
+
+        <br />
+        <br />
+
+        <input type="submit" value="enviar" id="submit" />
+      </form>
+    </div>
+
+    <div class="box dashed">
+      <h3>Información del Usuario</h3>
+      <hr />
+      <p id="p_nombre">Nombre: <span></span></p>
+      <p id="p_apellido">Apelido: <span></span></p>
+      <p id="p_edad">Edad: <span></span></p>
+    </div>
+  </body>
+</html>

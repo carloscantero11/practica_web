@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <title>JQuery 5ta Parte</title>
+
+    <style>
+      #datos {
+        border: 2px solid green;
+        width: 250px;
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      #datos p {
+        text-align: center;
+        margin: 11px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Aprendiendo JQuery</h1>
+    <p>Ejercicios de JQuery</p>
+
+    <div id="datos"></div>
+
+    <br>
+
+    <form action="https://reqres.in/api/users" method="POST" id="formulario">
+      Nombre: <input type="text" name="name">
+      Apellido: <input type="text" name="apellido">
+      <input type="submit" value="registrar">
+    </form>
+
+    <script type="text/javascript" src="js/5-ajax.js"></script>
+  </body>
+</html>
