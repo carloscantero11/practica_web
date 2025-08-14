@@ -1,9 +1,18 @@
 # 📌 Práctica Web
 
-Repositorio de ejercicios prácticos con tecnologías web fundamentales para backend y frontend.
+## 📑 Tabla de Contenido
+- [Descripción](#-descripción)
+  - [Backend](#backend)
+  - [Frontend](#frontend)
+- [Tecnologías Utilizadas](#-tecnologías-utilizadas)
+- [Clonar el Repositorio](#-clona-el-repositorio)
+- [Uso](#-uso)
+- [Problemas](#problemas)
+- [Licencia](#-licencia)
+- [Autor](#%EF%B8%8F-autor)
 
 ## 📜 Descripción
-
+Repositorio de ejercicios prácticos con tecnologías web fundamentales para backend y frontend.
 Este proyecto es un conjunto de prácticas y ejemplos. Cada carpeta contiene ejercicios independientes para dominar:
 
 - **Backend**:
